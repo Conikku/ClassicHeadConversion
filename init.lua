@@ -1,4 +1,4 @@
--- !scrict
+-- !strict
 
 --[[
 
@@ -10,7 +10,7 @@
 	Note:
 	Credit Roblox user @Conikku if used.
 	Will be updated when more dynamic faces are made, module will auto update live in servers so be aware it could break stuff depending on how you coded it.
-	If you are modifying it yourself you grab the module here: https://www.roblox.com/library/14449877379/
+	If you are modifying it yourself grab the module here: https://www.roblox.com/library/14449877379/
 	Just make sure to check back every now and then to see if I updated the module so new dynamic heads will work
 
 ]]
