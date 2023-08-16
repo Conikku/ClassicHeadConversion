@@ -1,10 +1,10 @@
--- !scrict
+-- !strict
 
 --[[
 
 	Author: @Conikku
-	Start Date: August, 15, 2023
-	Last Updated	: August, 15, 2023
+	Start Date: August 15, 2023
+	Last Updated: August 15, 2023
 	
 	Note:
 	Credit Roblox user @Conikku if used.
