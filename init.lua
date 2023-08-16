@@ -3,7 +3,7 @@
 --[[
 
 	Author: @Conikku
-	Date: August, 15, 2023
+	Date: August 15, 2023
 
 	Place in ServerScriptStorage or Workspace
 	
