@@ -10,7 +10,7 @@
 
 ## Installation
 ###### [You can get the Auto Updater Model here](https://www.roblox.com/library/14450036506/Dynamic-to-Classic-Face-Head-Converter)
-###### [You can get the module here](https://www.roblox.com/library/14450036506/Dynamic-to-Classic-Face-Head-Converter)
+###### [You can get the module here](https://www.roblox.com/library/14449877379/MainModule)
 
 ###### If you are using the Auto Updater model put it anywhere in ServerScriptStorage (or workspace if you are messy (please don't I beg))
 
