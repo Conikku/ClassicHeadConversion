@@ -1,9 +1,7 @@
--- !strict
-
 --[[
 
 	Author: @Conikku
-	Date: August 15, 2023
+	Date: August 16, 2023
 
 	Place in ServerScriptStorage or Workspace
 	
@@ -37,11 +35,11 @@ function getLatestModule()
 		moduleLoaded = false
 		moduleLastId = latest
 		local module = InsertService:LoadAssetVersion(moduleLastId):GetChildren()[1]
-		
+
 		if script:FindFirstChild("MainModule") then
 			script.MainModule:Destroy()
 		end
-		
+
 		Module = require(module)
 		moduleLoaded = true
 		print("Module has been updated")
@@ -54,12 +52,14 @@ do
 	spawn(function()
 		while true do
 			getLatestModule()
-			wait(MODULE_UPDATE_TIME)
+			task.wait(MODULE_UPDATE_TIME)
 		end
 	end)
 end
 
 Players.PlayerAdded:Connect(function(plr)
-	repeat task.wait() until Module ~= nil
-	Module.ChangeFace(plr)
+	plr.CharacterAppearanceLoaded:Connect(function(chr)
+		repeat task.wait() until Module ~= nil
+		Module.ChangeFace(chr)
+	end)
 end)
