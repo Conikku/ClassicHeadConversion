@@ -15,9 +15,9 @@
 
 #
 ## Examples:
-#### Plugin:
+### Plugin:
 [![Example](https://conikku.neocities.org/github%20assets/RobloxStudioBeta_KHnAkHRRd1.gif)]
-#### Showcase:
+### Showcase:
 [![ExampleA](https://conikku.neocities.org/github%20assets/RobloxStudioBeta_XObM2UvdS9.gif)]
 [![ExampleB](https://conikku.neocities.org/github%20assets/RobloxStudioBeta_m5ZWHgdt6g.gif)]
 [![ExampleC](https://conikku.neocities.org/github%20assets/RobloxStudioBeta_6mseahxBN0.gif)]
