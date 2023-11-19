@@ -16,11 +16,11 @@
 #
 ## Examples:
 ### Plugin:
-(https://conikku.neocities.org/github%20assets/RobloxStudioBeta_KHnAkHRRd1.gif)
+![Example](https://conikku.neocities.org/github%20assets/RobloxStudioBeta_KHnAkHRRd1.gif)
 ### Showcase:
-(https://conikku.neocities.org/github%20assets/RobloxStudioBeta_XObM2UvdS9.gif)
-(https://conikku.neocities.org/github%20assets/RobloxStudioBeta_m5ZWHgdt6g.gif)
-(https://conikku.neocities.org/github%20assets/RobloxStudioBeta_6mseahxBN0.gif)
+![Example](https://conikku.neocities.org/github%20assets/RobloxStudioBeta_XObM2UvdS9.gif)
+![Example](https://conikku.neocities.org/github%20assets/RobloxStudioBeta_m5ZWHgdt6g.gif)
+![Example](https://conikku.neocities.org/github%20assets/RobloxStudioBeta_6mseahxBN0.gif)
 ## Development
 
 ##### Want to contribute? Send a pull request if there are any bugs!
