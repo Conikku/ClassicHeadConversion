@@ -377,7 +377,7 @@ local FacesTable = {
 
 	-- :3 (Hai! x3)
 	[14719225657] = { -- SpecialMesh & Meshpart
-		Face = "2222767231",
+		Face = "15431991",
 		Head = "5591363797",
 	},
 	
