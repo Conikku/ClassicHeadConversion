@@ -3,7 +3,7 @@
 
 [![Roblox](https://conikku.neocities.org/github%20assets/POWERED%20by%20roblox.png)](https://www.roblox.com)
 
-[![Build Status](https://conikku.neocities.org/github%20assets/ver%20test.svg)]([[https://www.conikku.com](https://conikku.lao.ooo/)]))
+[![Build Status](https://conikku.neocities.org/github%20assets/ver%20test.svg)](https://conikku.lao.ooo/)
 
 ###### ClassicHeadConversion converts Dynamic heads to their classic face and head counterparts.
 ###### This was originally made for my game [Super Sonic Robloxia Adventure](https://www.roblox.com/games/10417853509/Super-Sonic-Robloxia-Adventure/) as it is a Classic Roblox styled Sonic fan game and it uses Roblox's classic face system to change the face of a player via a decal in the player's head
