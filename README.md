@@ -8,6 +8,8 @@
 ###### ClassicHeadConversion converts Dynamic heads to their classic face and head counterparts.
 ###### This was originally made for my game [Super Sonic Robloxia Adventure](https://www.roblox.com/games/10417853509/Super-Sonic-Robloxia-Adventure/) as it is a Classic Roblox styled Sonic fan game and it uses Roblox's classic face system to change the face of a player via a decal in the player's head
 
+## Update (4/21/2025): In order for this to continue working you must set the “PlayerCharacterDestroyBehavior” property in workspace to “Disabled”
+
 ## Installation
 ###### [You can get the Auto Updater Model here](https://www.roblox.com/library/14450036506/Dynamic-to-Classic-Face-Head-Converter)
 ###### [You can get the DynamicToClassic Devtool Plugin here](https://create.roblox.com/marketplace/asset/15407420885/DynamicToClassicHead-Devtool)
