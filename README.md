@@ -1,7 +1,7 @@
 # ClassicHeadConversion
 
-# THIS README IS A WIP
-## The model on Roblox is legacy and won't be updated, you can only grab it from here. You need basic scripting knowledge to understand how to set this up, you can use the example.luau script provided in this github as a example how to use it.
+## THIS README IS A WIP
+#### The model on Roblox is legacy and won't be updated, you can only grab it from here. You need basic scripting knowledge to understand how to set this up, you can use the example.luau script provided in this repository as a example on how to use it.
 
 ### Converts Roblox Dynamic heads to a classic form
 
