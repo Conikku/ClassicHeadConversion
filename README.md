@@ -26,6 +26,3 @@
 ## Development
 
 ##### Want to contribute? Send a pull request if there are any bugs!
-
-## License
-MIT
