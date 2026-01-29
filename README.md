@@ -6,6 +6,9 @@
 * Head to the example [script](/example.server.luau) for an example on how to use it!
 > <sub>This was originally made for my game [Super Sonic Robloxia Adventure](https://www.roblox.com/games/10417853509/Super-Sonic-Robloxia-Adventure/) as it is a Classic Roblox styled Sonic fan game and it uses Roblox's classic face system to change the face of a player via a decal in the player's head</sub>
 
+> [!IMPORTANT]
+> You need to enable Allow HTTP Requests in File > Experience Settings > Security
+
 > [!WARNING]
 > The model on the roblox asset store is legacy and won't be updated, you can only grab it from here.<br>
 > You can either clone this repository, or grab an .rbxm file from the latest [release](https://github.com/Conikku/ClassicHeadConversion/releases/latest) instead
