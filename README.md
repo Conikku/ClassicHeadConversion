@@ -14,7 +14,7 @@
 > You can either clone this repository, or grab an .rbxm file from the latest [release](https://github.com/Conikku/ClassicHeadConversion/releases/latest) instead
 
 > [!NOTE]
-> There is a legacy version of this repository listed within the [legacy](/legacy) directory, however it is not advised to use this version as it is no longer supported/maintanied. <sub><sup>It also uses `require` with a number... which is not good design.</sup></sub>
+> There is a legacy version of this repository listed within the [legacy](/legacy) directory, however it is not advised to use this version as it is no longer supported/maintained. <sub><sup>It also uses `require` with a number... which is not good design.</sup></sub>
 
 ## Contribution
 
