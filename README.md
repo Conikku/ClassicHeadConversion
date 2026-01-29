@@ -7,7 +7,10 @@
 > <sub>This was originally made for my game [Super Sonic Robloxia Adventure](https://www.roblox.com/games/10417853509/Super-Sonic-Robloxia-Adventure/) as it is a Classic Roblox styled Sonic fan game and it uses Roblox's classic face system to change the face of a player via a decal in the player's head</sub>
 
 > [!IMPORTANT]
-> You need to enable Allow HTTP Requests in File > Experience Settings > Security
+> This project is pretty much now absolute because of Dogutsune's [Facial Unification](https://create.roblox.com/store/asset/85110005799468/Facial-Unification) module, which doesnt require HttpsService and does a much better job then my system. Only downside is that it only works in R6, unlike my system.
+> Keep in mind my version doesnt change the head shape, it did in the legacy version, i'll maybe make a modified version of the legacy one with httpsservice support.
+
+> ~~You need to enable Allow HTTP Requests in File > Experience Settings > Security~~
 
 > [!WARNING]
 > The model on the roblox asset store is legacy and won't be updated, you can only grab it from here.<br>
