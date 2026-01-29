@@ -1,14 +1,23 @@
 # ClassicHeadConversion
 
-## THIS README IS A WIP
-#### The model on Roblox is legacy and won't be updated, you can only grab it from here. You need basic scripting knowledge to understand how to set this up, you can use the example.luau script provided in this repository as a example on how to use it.
+<img align="right" src="/icon.webp" alt="cool icon">
 
-### Converts Roblox Dynamic heads to a classic form
+* ClassicHeadConversion tries to convert roblox dynamic heads to their classic face and head counterparts.
+* Head to the example [script](/example.server.luau) for an example on how to use it!
+> <sub>This was originally made for my game [Super Sonic Robloxia Adventure](https://www.roblox.com/games/10417853509/Super-Sonic-Robloxia-Adventure/) as it is a Classic Roblox styled Sonic fan game and it uses Roblox's classic face system to change the face of a player via a decal in the player's head</sub>
 
-###### ClassicHeadConversion converts Dynamic heads to their classic face and head counterparts.
-###### This was originally made for my game [Super Sonic Robloxia Adventure](https://www.roblox.com/games/10417853509/Super-Sonic-Robloxia-Adventure/) as it is a Classic Roblox styled Sonic fan game and it uses Roblox's classic face system to change the face of a player via a decal in the player's head
+> [!WARNING]
+> The model on the roblox asset store is legacy and won't be updated, you can only grab it from here.<br>
+> You can either clone this repository, or grab an .rbxm file from the latest [release](https://github.com/Conikku/ClassicHeadConversion/releases/latest) instead
 
-## Development
-##### Want to contribute? Send a pull request if there are any bugs!
-#### Plugin to help contribute:
-[You can get the DynamicToClassic Devtool Plugin here](https://create.roblox.com/marketplace/asset/15407420885/DynamicToClassicHead-Devtool)
+> [!NOTE]
+> There is a legacy version of this repository listed within the [legacy](/legacy) directory, however it is not advised to use this version as it is no longer supported/maintanied. <sub><sup>It also uses `require` with a number... which is not good design.</sup></sub>
+
+## Contribution
+
+Want to contribute? Send a pull request if there are any bugs!
+
+### Plugin to help contribute:
+
+To contribute to the list of faces in the [json](/Faces.json) file, you can get the DynamicToClassic plugin to help!<br>
+You can get the DynamicToClassic Devtool Plugin [here](https://create.roblox.com/marketplace/asset/15407420885/DynamicToClassicHead-Devtool).
