@@ -9,7 +9,6 @@
 > [!IMPORTANT]
 > This project is pretty much now absolute because of Dogutsune's [Facial Unification](https://create.roblox.com/store/asset/85110005799468/Facial-Unification) module, which doesnt require HttpsService and does a much better job then my system. Only downside is that it only works in R6, unlike my system.
 > Keep in mind my version doesnt change the head shape, it did in the legacy version, i'll maybe make a modified version of the legacy one with httpsservice support.
-
 > ~~You need to enable Allow HTTP Requests in File > Experience Settings > Security~~
 
 > [!WARNING]
