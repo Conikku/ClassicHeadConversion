@@ -1,5 +1,5 @@
 --[[
-    Author: @Conikku (Updated for HumanoidDescription + HttpService)
+    Author: @Conikku
     Original Date: August 15, 2023
     Updated: January 29, 2026
     
