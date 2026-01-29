@@ -1,10 +1,11 @@
 --[[
-    Author: @Conikku
+    Author: @Conikku (Updated for HumanoidDescription + HttpService)
     Original Date: August 15, 2023
-    Updated: January 28, 2026
+    Updated: January 29, 2026
     
     Note:
 	Detects ID via MeshURL -> Fetches FacesTable from web -> Applies conversion
+    Head shape for now defaults to the regular roblox one, I will work on a fix soon
 ]]
 
 local ConversionHandler = {}
@@ -75,44 +76,49 @@ function ConversionHandler.ChangeFace(Character)
 	local matchData = FacesTable[tostring(searchId)]
 
 	if matchData then
-		-- 3. APPLY HEAD MESH CHANGE ONLY (not face yet)
-		local currentDescription = Humanoid:GetAppliedDescription()
-
-		if matchData.Head then
-			currentDescription.Head = tonumber(matchData.Head)
+		local targetHeadId = tonumber(matchData.Head)
+		local targetFaceId = tonumber(matchData.Face)
+		
+		print("Target Head ID:", targetHeadId)
+		print("Target Face ID:", targetFaceId)
+		
+		-- 3. APPLY HEAD MESH CHANGE DIRECTLY
+		if targetHeadId then
+			local mesh = Head:FindFirstChild("Mesh")
+			
+			if Head:IsA("MeshPart") then
+				-- For MeshPart heads, change the MeshId directly
+				Head.MeshId = "rbxassetid://" .. targetHeadId
+				print("Changed MeshPart.MeshId to:", targetHeadId)
+			elseif mesh and mesh:IsA("SpecialMesh") then
+				-- For SpecialMesh heads, change the MeshId
+				mesh.MeshId = "rbxassetid://" .. targetHeadId
+				print("Changed SpecialMesh.MeshId to:", targetHeadId)
+			else
+				warn("Head doesn't have a MeshPart or SpecialMesh - cannot change head mesh")
+			end
 		end
 
-		-- DON'T set Face in description - we'll handle it manually
+		-- 4. Small wait for mesh to update
+		task.wait(0.1)
 
-		Humanoid:ApplyDescription(currentDescription)
-
-		-- 4. Wait for ApplyDescription to fully complete
-		task.wait(0.3)
-
-		-- 5. NOW manually handle the face decal
-		if matchData.Face then
-			-- Find or create the face decal
-			local faceDecal = Head:FindFirstChild("face")
-
-			if not faceDecal or not faceDecal:IsA("Decal") then
-				-- Remove any existing decals
-				for _, child in ipairs(Head:GetChildren()) do
-					if child:IsA("Decal") then
-						child:Destroy()
-					end
+		-- 5. NOW apply the face decal
+		if targetFaceId then
+			-- Remove any existing face decals first
+			for _, child in ipairs(Head:GetChildren()) do
+				if child:IsA("Decal") and child.Name:lower() == "face" then
+					child:Destroy()
 				end
-
-				-- Create new face decal
-				faceDecal = Instance.new("Decal")
-				faceDecal.Name = "face"
-				faceDecal.Face = Enum.NormalId.Front
-				faceDecal.Parent = Head
 			end
 
-			-- Set the texture
-			faceDecal.Texture = "rbxassetid://" .. matchData.Face
+			-- Create new face decal
+			local faceDecal = Instance.new("Decal")
+			faceDecal.Name = "face"
+			faceDecal.Face = Enum.NormalId.Front
+			faceDecal.Texture = "rbxassetid://" .. targetFaceId
+			faceDecal.Parent = Head
 
-			print("Set face decal texture to:", matchData.Face)
+			print("Successfully set face decal texture to:", targetFaceId)
 		end
 
 		print("Successfully converted head for ID:", searchId)
