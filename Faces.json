@@ -290,18 +290,18 @@
     "_comment": "SpecialMesh & Meshpart"
   },
   
-  "_comment_heeeeeey": "Heeeeeey... (NOTE: This ID appears multiple times in original, last value wins)",
-  "14638202807": {
+  "_comment_suspicous": "Suspicious -  Suspicious (like among us!?... I'll see myself out)",
+  "13684479531": {
     "Face": "209715003",
     "Head": "5591363797",
-    "_comment": "SpecialMesh & Meshpart - Suspicious (like among us!?... I'll see myself out)"
+    "_comment": "SpecialMesh & Meshpart"
   },
   
-  "_comment_smil_nas_x": "Smil Nas X (NOTE: This ID appears multiple times in original, last value wins)",
+  "_comment_smil_nas_x": "Smil Nas X",
   "13684039612": {
-    "Face": "15470849",
+    "Face": "5924588534",
     "Head": "8635368421",
-    "_comment": "SpecialMesh - Hut Hut Hike!"
+    "_comment": "SpecialMesh & Meshpart"
   },
   
   "_comment_friendly_smile": "Friendly Smile",
@@ -311,15 +311,15 @@
     "_comment": "SpecialMesh & Meshpart"
   },
   
-  "_comment_puck": "Puck! (NOTE: This ID appears multiple times in original, last value wins)",
+  "_comment_puck": "Puck!",
   "14769032055": {
     "Face": "20298933",
     "Head": "5591363797",
     "_comment": "SpecialMesh & Meshpart"
   },
   
-  "_comment_glittering_eye": "Glittering Eye (NOTE: This ID appears multiple times in original, last value wins)",
-  "13692882504": {
+  "_comment_glittering_eye": "Glittering Eye",
+  "14478188128": {
     "Face": "7893438453",
     "Head": "8635368421",
     "_comment": "SpecialMesh"
@@ -353,11 +353,19 @@
     "_comment": "SpecialMesh & Meshpart"
   },
   
-  "_comment_stitchface": "Stitchface (NOTE: This ID appears multiple times in original, last value wins)",
+"_comment_headless": "Headless - so, no head",
+  "6686307858": {
+    "Face": "15431991",
+    "Head": "134079402",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+  
+
+  "_comment_stitchface": "Stitchface - so, new head",
   "14760215320": {
     "Face": "8329438",
     "Head": "13916684351",
-    "_comment": "SpecialMesh & Meshpart - so, new head?"
+    "_comment": "SpecialMesh & Meshpart"
   },
   
   "_comment_its_go_time": "It's Go Time!",
@@ -458,7 +466,7 @@
     "_comment": "SpecialMesh & Meshpart"
   },
   
-  "_comment_i_hate_noobs": "I Hate Noobs (NOTE: This ID appears multiple times in original, last value wins)",
+  "_comment_i_hate_noobs": "I Hate Noobs",
   "14192299483": {
     "Face": "14030506",
     "Head": "5591363797",
@@ -499,7 +507,105 @@
     "Head": "5591363797",
     "_comment": "SpecialMesh & Meshpart"
   },
+
+  "_comment_colon_p": ":P",
+  "15093418869": {
+    "Face": "14861556",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_shiny_teeth": "Shiny Teeth",
+  "15554825571": {
+    "Face": "20722053",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_award_winning_smile": "Award Winning Smile",
+  "13675390266": {
+    "Face": "6531805594",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_scarecrow": "Scarecrow",
+  "15380925430": {
+    "Face": "26260786",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_happy_wink": "Happy Wink - me when I see a blue yoshi #xD",
+  "16042015623": {
+    "Face": "236455674",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_good_intentioned": "Good Intentioned - not really no",
+  "16041838499": {
+    "Face": "7317606",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+ "_comment_awesome_face": "Awesome Face",
+  "15548498729": {
+    "Face": "30394849",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_glee": "Glee",
+  "15555752896": {
+    "Face": "7074712",
+    "Head": "8635368421",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_silly_fun": "Silly Fun",
+  "15938884849": {
+    "Face": "7699086",
+    "Head": "8635368421",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_awkward": "Awkward...",
+  "15381387290": {
+    "Face": "23931977",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_lazy_eye": "Lazy Eye",
+  "15381465917": {
+    "Face": "7075492",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+  "_comment_finn_mccool": "Finn McCool - WOOFER137 disrespect button ---->",
+  "13692882504": {
+    "Face": "10749456",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
   
+  "_comment_heeeeeey": "Heeeeeey...",
+  "14638202807": {
+    "Face": "21635489",
+    "Head": "5591363797",
+    "_comment": "SpecialMesh & Meshpart"
+  },
+
+"_comment_hut_hut_hike": "Hut Hut Hike",
+  "13684329978": {
+    "Face": "15470573",
+    "Head": "8635368421",
+    "_comment": "SpecialMesh"
+  },
+
   "_comment_colon_dash_o": ":-O",
   "14205179825": {
     "Face": "7317691",
